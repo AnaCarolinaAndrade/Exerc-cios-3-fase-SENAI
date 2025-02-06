@@ -1,0 +1,10 @@
+.container-body{
+    background-color: rgb(255, 255, 255);
+    min-height: calc(100vh - 60px);
+}
+
+.container-body h1{
+    color: rgb(129, 47, 124);
+    font-size: 50px;
+    font-family: sans-serif;
+}
