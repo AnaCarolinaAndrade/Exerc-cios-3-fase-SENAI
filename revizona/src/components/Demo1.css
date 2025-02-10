@@ -1,5 +1,47 @@
-.container-demo1 h4{
-color: rgb(87, 17, 95);
-font-family: sans-serif;
-font-size: larger;
+.container-demo1 h2{
+ margin-top: 20px;
+ margin-left: 20px;
+ color: rgb(87, 17, 95);
+ font-family: sans-serif;
+}
+
+.container-demo1 button{
+ margin-left: 20px;
+ margin-top: 10px;
+ margin-bottom: 15px;
+ display: block;
+
+ font-size: 17px;
+ font-family: sans-serif;
+ background-color: rgb(136, 56, 145);
+ border:none;
+ color: rgb(252, 252, 252);
+ border-radius: 7px;
+ padding: 10px;
+ width: 170px;
+}
+
+.container-demo1 button:hover{
+ background-color: rgb(86, 36, 107);
+ color: rgb(252, 252, 252);
+}
+
+.container-cronometro button{
+ margin-left: 20px;
+ padding: 3px;
+ width: 25px;
+ background-color: rgb(205, 155, 238);
+}
+
+.container-cronometro button:hover{
+  background-color: rgb(168, 94, 199);
+  color: rgb(252, 252, 252);
+}
+
+.container-cronometro{
+ margin-top: 35px;
+ margin-left: 25px;
+ font-family: sans-serif;
+ font-size: medium;
+ color: rgb(87, 17, 95);
 }

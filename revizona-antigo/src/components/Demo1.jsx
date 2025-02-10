@@ -1,7 +1,6 @@
-import { useState } from 'react';
 import './Demo1.css'
 function Demo1() {
- const [estado, setEstado]= useState(0)
+ const [estado, setEstado]= useState=(0)
 
     function incrementarEstado(){
      setEstado (estado + 1)
@@ -19,15 +18,15 @@ function Demo1() {
 
     return (
      <div className="container-demo1">
-     <h2>Logo 1</h2>
+     <h4>Logo 1</h4>
      <button onClick={alertaUsuario}>Clique aqui</button>
      <button onClick={() => {alert("Executado uma arrow function com sucesso ;)")}}>Arrow Function</button>
 
-        <div className='container-cronometro'>
+        <div>
          Cronometro: {cronometro}
          <button onClick={incrementaCronometro}>+</button>
 
-            <div className='container-estado'>
+            <div>
              estado: {estado}
              <button onClick={incrementarEstado}>+</button>
             </div>
